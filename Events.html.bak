@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Events</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ 
+ <style>
+body {
+    font-family: 'Varela Round';font-size: 22px;
+}
+body {
+  background-image: url('background.png');
+}
+</style>
+ 
+ <body>
+	<img class="logo" src="logo.png">
+
+   <ul class="main_menu">
+    
+    <li><a href="index.html">Home</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+    <li><a href="Location.html">Location</a></li>
+	<li><a href="Shop.html">Shop</a></li>
+	<li><a href="Donate.html">Donate</a></li>
+	<li><a href="AboutUs.html">About Us</a></li>
+	<li><a href="SuccessStories.html">Success Stories</a></li>
+	<li><a href="Events.html">Events</a></li>
+	<li><a href="Learning.html">Learning</a></li>
+  </ul>
+  <div class="mobile_menu">
+	<select name="Home" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO">
+        <option selected="selected">Select a page...</option>
+		<option value="index.html">Main Menu</option>
+		<option value="ContactUs.html">Contact Us</option>
+		<option value="FAQ.html">FAQ</option>
+		<option value="Location.html">Location</option>
+		<option value="Shop.html">Shop</option>
+		<option value="Donate.html">Donate</option>
+		<option value="AboutUs.html">About us</option>
+		<option value="SuccessStories.html">Success Stories</option>
+		<option value="Events.html">Events</option>
+		<option value="Learning.html">Learning</option>
+    </select>
+  </div>
+  
+  
+	<div class="left_area5">
+		<div class="Title">
+			Events
+		</div>
+		
+		<div class="event" id="event1text">
+			This is our fun run event where anyone is welcome to participate! All runners must gain sponsors for the run and all proceeds raised will be used to the benefit of the charity in its goals of helping young trans people.
+		</div>
+		
+		<button type=Submit id="signup1">Sign Up</button>
+		
+		<div class="event" id="event2text">
+			This is our volunteering section, click on the button in order to sign up for our volunteering services, where you will be able to help out in a multitude of areas such as finding recourses for us to use, working in the shop, or managing events.
+		</div>
+		
+		<button type=Submit id="signup2">Sign Up</button>
+		
+		<div class="event" id="event3text">
+			This is our charity auction event, feel free to donate items to go up for auction at our event, all money raised from this event will go towards helping the charity with its goal of helping the trans youth.
+		</div>
+		
+		<button type=Submit id="signup3">Sign Up</button>
+		
+	</div>
+	
+	<div class="middle_area">
+		<img src="event1park.png" id="event1" alt="Event"/>
+		<img src="event2sale.png" id="event2" alt="Event"/>
+		<img src="event3auction.png" id="event3" alt="Event"/>
+	</div>
+	
+	<div class="right_area4">
+		<form action="Donate.html">
+			<button class="donatebutton">Donate, Click Here!</button>
+		</form>
+	</div>
+  
+ </body>
+ 
+</html>
